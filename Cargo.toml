@@ -1,0 +1,11 @@
+[package]
+name = "lang"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+chrono = "0.4.38"
+clap = { version = "4.5.16", features = ["derive"] }
+rand = "0.8.5"
+rand_derive2 = "0.1.21"
+
